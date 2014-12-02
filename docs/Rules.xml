@@ -1,0 +1,57 @@
+<Rules>
+	<BasicRule>
+		<Type>Basic</Type>
+		<Order>1</Order>
+		<ComparationMode>EqualsTo</ComparationMode>
+		<Value></Value>
+		<LOCValue>0</LOCValue>
+	</BasicRule>
+	
+	<BasicRule>
+		<Type>Basic</Type>
+		<Order>2</Order>
+		<ComparationMode>EqualsTo</ComparationMode>
+		<Value>{</Value>
+		<LOCValue>0</LOCValue>
+	</BasicRule>
+	
+	<BasicRule>
+		<Type>Basic</Type>
+		<Order>3</Order>
+		<ComparationMode>EqualsTo</ComparationMode>
+		<Value>}</Value>
+		<LOCValue>0</LOCValue>
+	</BasicRule>
+	
+	<BasicRule>	
+		<Type>Basic</Type>
+		<Order>4</Order>
+		<ComparationMode>StartsWith</ComparationMode>
+		<Value>//</Value>
+		<LOCValue>1</LOCValue>
+	</BasicRule>
+	
+	<BasicRule>		
+		<Type>Basic</Type>
+		<Order>5</Order>
+		<ComparationMode>StartsWith</ComparationMode>
+		<Value>/*</Value>
+		<LOCValue>1</LOCValue>
+	</BasicRule>
+	
+	<BasicRule>
+		<Type>Basic</Type>
+		<Order>6</Order>
+		<ComparationMode>StartsWith</ComparationMode>
+		<Value>*</Value>
+		<LOCValue>1</LOCValue>
+	</BasicRule>
+	
+		<BasicRule>
+		<Type>Basic</Type>
+		<Order>7</Order>
+		<ComparationMode>NotEqualsTo</ComparationMode>
+		<Value></Value>
+		<LOCValue>3</LOCValue>
+	</BasicRule>
+</Rules>
